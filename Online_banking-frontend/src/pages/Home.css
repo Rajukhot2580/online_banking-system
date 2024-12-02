@@ -1,0 +1,390 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#logo
+{
+    width: 200px;
+    width: 80px;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    padding: 15px; /* Add some padding */
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+}
+.nav-position
+{
+    position:fixed;
+    top: 0;
+}
+/* Style for nav links container */
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display as a row */
+    gap: 30px; /* Space between links */
+}
+
+/* Style for individual links */
+.nav-links li {
+    display: inline-block; /* Inline display */
+}
+
+/* Link styling */
+.nav-links .link {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size:20px; 
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s; 
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Link hover effect */
+.nav-links .link:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* Ensure the text color stays white */
+}
+
+/* Active link styling (optional) */
+.nav-links .link:active {
+    background-color: #0056b3; /* Darker blue when active */
+}
+.registration-contanier
+{
+    margin-top: 300px;
+    width:800px;
+    border: 2px solid gray;
+    background-color: rgb(240, 239, 239);
+    border-radius: 3%;
+}
+
+.Background-image
+{
+    width: 100%;
+    height: 800px;
+}
+.Bank-logo-img
+{
+    position: relative;
+    top: -600px;
+    left: 1100px;
+}
+#bank-name
+{
+    position: relative;
+    top: -900px;
+    color: white;
+    font-size: 60px;
+    left: 100px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#bank-name-style
+{
+    margin-left: 20px;
+    color: orange;
+}
+#bank-details
+{
+    color: white;
+    position:relative;
+    top: -900px;
+    left: 100px;
+    width: 55%;
+    font-size: 30px;
+}
+.reset
+{
+    margin-left: 700px;
+}
+.body
+{
+    background-color: lightgray;
+}
+.form-label
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+#Registration-heading
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.res-btn1
+{
+     margin-left: 200px;
+     padding: 20px 30px;
+     font-size: 20px;
+}
+.res-btn2
+{
+    margin-left: 120px;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+
+.login-container
+{
+    margin-bottom: 1020px;
+    width: 30%;
+    height: 500px;
+    border: 2px solid gray;
+    background-color: rgb(240, 239, 239);
+    border-radius: 5%;
+}
+
+.login-btn1
+{
+    margin-left: 90px;
+    padding: 10px 17px;
+    font-size: 18px;
+}
+.login-btn2
+{
+    margin-left: 60px;
+    padding: 10px 17px;
+    font-size: 18px;
+}
+
+
+.logout
+{
+    margin-left: 1530px;
+    position: relative;
+    top: -235px;
+}
+.logout-acc
+{
+    position: relative;
+    top: -815px;
+    left: 900px;
+}
+.acc-info-logout
+{
+    position: relative;
+    top: -320px;
+    left: 900px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    font-family: 'Arial', sans-serif;
+    margin-left: 0px;
+}
+
+.table th {
+    font-size: 1.2rem;
+}
+
+.table td {
+    font-size: 1rem;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+}
+
+.btn-lg {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.text-primary {
+    font-weight: bold;
+}
+
+.alert-danger {
+    margin-top: 20px;
+}
+/* UserHome Styles */
+
+.user-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff 50%, #f8f9fa 50%);
+}
+
+.welcome-banner {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.highlighted-text {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.info-text {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.customer-id {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.logout-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.logout-btn:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-banner {
+        padding: 30px;
+    }
+
+    .welcome-text {
+        font-size: 2rem;
+    }
+
+    .info-text {
+        font-size: 1.2rem;
+    }
+
+    .customer-id {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* UserNavbar.css */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links .link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.nav-links .link:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .link:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Home.css */
+
+/* Ensure the card body content is aligned to the left */
+.card-body {
+    text-align: left;
+}
+
+/* Center align only the header text */
+.card-header {
+    text-align: center;
+}
+
+/* Align the update button to the left */
+.btn-primary {
+    display: inline-block;
+}
